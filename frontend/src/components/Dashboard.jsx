@@ -8,6 +8,8 @@ const Dashboard = (props) => {
     function logout() {
         props.deepak(null);
         router('/')
+
+        
         alert('You are loggout Successfully...')
     }
     useEffect(() => {
