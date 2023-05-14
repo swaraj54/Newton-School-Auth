@@ -7,9 +7,7 @@ const Dashboard = (props) => {
     console.log(userData, 'userData')
     function logout() {
         props.deepak(null);
-        router('/')
-
-        
+        router('/')        
         alert('You are loggout Successfully...')
     }
     useEffect(() => {
